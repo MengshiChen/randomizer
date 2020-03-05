@@ -7,7 +7,7 @@ let imagecounter = 0;
 
 function preload() {
   for (let i = 1; i <= 12; i++) {
-    images[i-1] = loadImage(`https://github.com/MengshiChen/randomizer/images/glitch_${i}.jpg`);
+    images[i-1] = loadImage(`/images/glitch_${i}.jpg`);
   }
 
 }
