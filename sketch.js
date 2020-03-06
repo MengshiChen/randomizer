@@ -57,7 +57,8 @@ function draw(){
     image(images[imagecounter], width / 2, height / 2);
     if (imagecounter < images.length - 1){
       imagecounter++;
-    } else {
+    }
+    else {
       imagecounter = 0;
     }
 
