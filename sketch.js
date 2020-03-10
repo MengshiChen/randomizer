@@ -16,7 +16,7 @@ function preload() {
   //i=0, if the image count from 1, i=1, images[i-1].
   for (let i = 0; i <= 11; i++) {
     // images = pictures that I put
-    images[i] = loadImage(`/images/glitch_${i}.jpg`);
+    images[i] = loadImage(`images/glitch_${i}.jpg`);
   }
 }
 
