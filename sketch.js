@@ -24,14 +24,14 @@ function setup(){
 cnv = createCanvas(600, 600);
 cnv.parent("#canvasDiv");
 
-background(224,194,255);
+background(17,13,255);
 imageMode(CENTER);
 frameRate(8);
 console.log(images);
 textSize(36);
 textStyle(BOLD);
 textAlign(CENTER, BOTTOM);
-fill("blue");
+fill("yellow");
 // button = createButton ("Click to randomize");
 startRandomizerButton = select('#randButton')
 startRandomizerButton.mousePressed(buttonPressed);
@@ -86,8 +86,8 @@ function randomizer(){
     dogs.splice(randomIndex, 1);
   }
     else {
-    background(224,194,255);
-    text("nothing left!", width / 2, height / 2);
+    background(166,255,244);
+    text("Try Again!", width / 2, height / 2);
     }
 
 }
